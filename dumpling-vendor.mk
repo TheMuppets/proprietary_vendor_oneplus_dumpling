@@ -23,36 +23,38 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dumpling/proprietary/vendor/etc/oneplus5T_vstab_db_4k_video_0_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/oneplus5T_vstab_db_4k_video_0_30fps.config \
     vendor/oneplus/dumpling/proprietary/vendor/etc/oneplus5T_vstab_db_720p_video_0_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/oneplus5T_vstab_db_720p_video_0_30fps.config \
     vendor/oneplus/dumpling/proprietary/vendor/etc/oneplus5T_vstab_db_720p_video_1_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/oneplus5T_vstab_db_720p_video_1_30fps.config \
-    vendor/oneplus/dumpling/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libactuator_lc898217xc_imx376k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc_imx376k.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_1840x1380_30fps_preview_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_1840x1380_30fps_preview_bokeh.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1458_120fps_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_2592x1458_120fps_video.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1458_60fps_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_2592x1458_60fps_video.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_bokeh.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_wechat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_3a_2592x1940_30fps_preview_wechat.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_common.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1458_120fps_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_cpp_2592x1458_120fps_video.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1458_60fps_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_cpp_2592x1458_60fps_video.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1940_24fps_preview_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_cpp_2592x1940_24fps_preview_bokeh.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1940_24fps_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_cpp_2592x1940_24fps_snapshot_bokeh.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1940_30fps_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_cpp_2592x1940_30fps_preview.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_cpp_2592x1940_30fps_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_cpp_2592x1940_30fps_snapshot.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_isp_2592x1458_120fps_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_isp_2592x1458_120fps_video.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_isp_2592x1458_60fps_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_isp_2592x1458_60fps_video.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_isp_2592x1940_24fps_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_isp_2592x1940_24fps_snapshot_bokeh.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_isp_2592x1940_30fps_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_isp_2592x1940_30fps_snapshot.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx376k_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx376k_postproc.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx398_3a_4608x3456_30fps_preview_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_3a_4608x3456_30fps_preview_bokeh.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libchromatix_imx398_cpp_4608x3456_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_4608x3456_snapshot_bokeh.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib/libmmcamera_imx398.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx398.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib64/hw/fingerprint.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8998.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
-    vendor/oneplus/dumpling/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so
+    vendor/oneplus/dumpling/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt
+
+PRODUCT_PACKAGES += \
+    camera.msm8998 \
+    libactuator_lc898217xc_imx376k \
+    libchromatix_imx376k_3a_1840x1380_30fps_preview_bokeh \
+    libchromatix_imx376k_3a_2592x1458_120fps_video \
+    libchromatix_imx376k_3a_2592x1458_60fps_video \
+    libchromatix_imx376k_3a_2592x1940_30fps_preview \
+    libchromatix_imx376k_3a_2592x1940_30fps_preview_bokeh \
+    libchromatix_imx376k_3a_2592x1940_30fps_preview_wechat \
+    libchromatix_imx376k_common \
+    libchromatix_imx376k_cpp_2592x1458_120fps_video \
+    libchromatix_imx376k_cpp_2592x1458_60fps_video \
+    libchromatix_imx376k_cpp_2592x1940_24fps_preview_bokeh \
+    libchromatix_imx376k_cpp_2592x1940_24fps_snapshot_bokeh \
+    libchromatix_imx376k_cpp_2592x1940_30fps_preview \
+    libchromatix_imx376k_cpp_2592x1940_30fps_snapshot \
+    libchromatix_imx376k_isp_2592x1458_120fps_video \
+    libchromatix_imx376k_isp_2592x1458_60fps_video \
+    libchromatix_imx376k_isp_2592x1940_24fps_snapshot_bokeh \
+    libchromatix_imx376k_isp_2592x1940_30fps_snapshot \
+    libchromatix_imx376k_postproc \
+    libchromatix_imx398_3a_4608x3456_30fps_preview_bokeh \
+    libchromatix_imx398_cpp_4608x3456_snapshot_bokeh \
+    libmmcamera2_iface_modules \
+    libmmcamera2_imglib_modules \
+    libmmcamera2_mct \
+    libmmcamera2_sensor_modules \
+    libmmcamera2_stats_modules \
+    libmmcamera_imx398 \
+    fingerprint.msm8998 \
+    libgf_ca \
+    libgf_hal \
+    libgoodixfingerprintd_binder
